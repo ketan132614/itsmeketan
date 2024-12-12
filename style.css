@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+header {
+    background: #ffffff;
+    padding: 20px 0;
+    border-bottom: 2px solid #ffffff;
+}
+
+.a,
+.b {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.pic img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.text h1 {
+    font-size: 24px;
+}
+
+
+.jp {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.p {
+    padding: 0 20px;
+}
+
+
+.kp {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+}
+
+
+.containerb {
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.pk,
+.lol {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #333;
+}
+
+
+footer {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .text h1 {
+        font-size: 20px;
+    }
+
+    .kp {
+        height: 300px;
+    }
+
+    .pk,
+    .lol {
+        width: 100%;
+    }
+}
